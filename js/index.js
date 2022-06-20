@@ -61,7 +61,7 @@ const disableCards = () => {
     firstCard.classList.add("hidden");
     secondCard.classList.add("hidden");
     checkWin();
-  }, 1000);
+  }, 500);
 };
 
 const unflipCards = () => {
