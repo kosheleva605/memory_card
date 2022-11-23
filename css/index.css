@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .wrapper {
-    height: 100vh;
+    height: 100%;
     display: flex;
     background-color: #000033;
 }
+
 
 h1 {
 font-size: xx-large;
@@ -69,3 +70,4 @@ font-size: xx-large;
 .front-face {
     transform: rotateY(180deg);
 }
+
