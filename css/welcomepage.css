@@ -39,13 +39,21 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    transition: all 1s;
     
 }
 button:hover {
     background-color:  rgb(173, 168, 202);
     color: #000033;
-}
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.5);
+} 
 :disabled {
     opacity: 0.6;
     cursor: not-allowed;
+    
+} 
+
+button:hover:disabled {
+    box-shadow: 0px 0px 5px 5px red; 
 }
+
